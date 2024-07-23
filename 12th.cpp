@@ -17,10 +17,11 @@ int main() {
     // pointer to pointer 
     int ** c = &b;
     cout<<&b<<endl;
-    cout<<c<< endl;
 
-    cout<<*c<<endl;
-    cout<<**c<<endl;
+
+    cout<<c<< endl; // this shows value stored in c i.e i.e, address of b 
+    cout<<*c<<endl; // this show value stored in b  i.e, address of a 
+    cout<<**c<<endl; // this shows value store in a i.e, 3 
 
 
 

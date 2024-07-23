@@ -16,10 +16,12 @@ int main() {
 
 
 // **************reference variable*************
-// float x = 455 ;
-// float & y = x ;
-// cout<<y;
-// cout<<x;
+float x = 455 ;
+float & y = x ;
+y = 23 ;
+cout<<y;
+cout<<x;
+// so if i change x or y both then other one will also change 
 
 // ******************typcasting********************
 // b into int(b) or (int)b 
